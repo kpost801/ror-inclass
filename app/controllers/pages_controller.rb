@@ -1,4 +1,6 @@
 class PagesController < ApplicationController
   def home
-  end
+    @name = params['name']
+    
+end
 end

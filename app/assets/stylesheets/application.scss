@@ -14,4 +14,12 @@
  *= require_self
  */
 
- @import "bootstrap";
+@import "bootstrap";
+
+h1 {
+  text-align: center;
+}
+
+td {
+  border-spacing: 5rem;
+}
